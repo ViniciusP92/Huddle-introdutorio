@@ -11,19 +11,29 @@ body{
     background-color: hsl(257, 40%, 49%);
 }
 
-.header{
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    color: white;
+.header img{
     padding-top: 20px;
     padding-left: 20px; 
-    display:flex;
+    width:150px;
+}
 
+.main-text{
+    display:flex;
+    flex-wrap:wrap;
+    margin: 4% 14%;
+}
+
+.main-text div{
+    width:50%;
+ 
+}
+
+.text {
+    padding: 20px;
 }
 
 .image{
-    display:flex;
-    flex-wrap:wrap;
+    width: 500px;
 }
 
 .headding{
@@ -31,12 +41,16 @@ body{
     font-weight: 400;
     color: white;
     display:flex;
+    text-align:center;
 }
 
 .body{
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
     color:white;
+    text-align:center;
 }
 
 .button{
@@ -47,4 +61,5 @@ body{
     padding: 10px;
     border:none;
     outline: none;
+    font-family:"Poppins", sans-serif;
 }
